@@ -7,7 +7,7 @@ public class Produit {
 	private String designation;
 	private int quantite;
 	private double prixUnitaire;
-	
+	private int ri;
 	public Produit(String designation, int quantite, double prixUnitaire) {
 		this.ref=cpt++;
 		this.designation=designation;
